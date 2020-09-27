@@ -2,5 +2,5 @@ export const config = {
   secrets: {
     jwt: 'learneverything'
   },
-  dbUrl: 'mongodb://localhost:27017/api-design'
+  dbUrl: 'mongodb+srv://dbTest:hola123@cluster0.cboli.mongodb.net/dbTest?retryWrites=true&w=majority'
 }
