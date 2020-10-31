@@ -18,6 +18,9 @@ interface Product {
   type: ProductType!
   createdBy: User!
   description: String
+  liquidCooled: Boolean
+  range: String
+  bikeType: BikeType
 }
 
 type GamingPc implements Product {
